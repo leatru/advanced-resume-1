@@ -1,0 +1,273 @@
+.body {
+    font-family: Calibri light;
+}
+
+h1 {
+    color: black;
+    font-family:'Dancing Script', cursive;
+    font-size: 2.8em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h3 {
+    font-family: Calibri light;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+h6 {
+    font-family: Calibri light;
+    font-size: 1.1em;
+    letter-spacing: 0.3px;
+}
+
+p {
+    color: #8f8f8f;
+    margin-bottom: 25px;
+}
+
+hr {
+    border-color: black;
+    border-top: 3px;
+    width: 45px;
+}
+
+
+
+/* NAVIGATION BAR */
+.navbar {
+    margin-bottom: 4.5em;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    padding-left: 20px;
+}
+
+.nav-item {
+    padding: 0 14px;
+}
+
+button.navbar-toggler {
+    margin-right: 20px;
+    border: none;
+}
+
+.navbar button i {
+    color: white;
+}
+
+
+
+/* HOME PAGE */
+.title p {
+    font-family: calibri light;
+    font-size: 0.8em;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+.title-image {
+    align-content: center;
+    display: inline-block;
+}
+
+
+
+/* ABOUT ME */
+.col-8 p {
+    color: #8f8f8f;    
+    font-family: calibri light;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* MY SKILLS */
+#features {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.rounded-circle {
+    border: 0.5px solid rgb(222, 222, 222);
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.skills img {
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+
+
+/* EDUCATION & EXPERIENCE */
+.timeline {
+    position: relative;
+    list-style: none;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    margin-left: -1px;
+    background-color: black;
+}
+
+.timeline-element {
+    position: relative;
+    width: 50%;
+    padding: 1rem 0;
+    padding-right: 2.5rem;
+    text-align: right;
+    line-height: 3px;
+}
+
+
+.timeline-element::before {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 1.35rem;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #61adbd;
+}
+
+.timeline-element:nth-child(even)::before {
+    right: auto;
+    left: -8px;
+}
+
+.timeline-element:nth-child(even) {
+    margin-left: 50%;
+    padding-left: 2.5rem;
+    padding-right: 0;
+    text-align: left;
+}
+
+@media (max-width: 767.98px) {
+    .timeline::before {
+      left: 8px;
+  }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element {
+      width: 100%;
+      text-align: left;
+      padding-left: 2.5rem;
+      padding-right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element::before {
+      top: 1.25rem;
+      left: 1px;
+  }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element:nth-child(even) {
+      margin-left: 0rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element {
+      width: 100%;
+      text-align: left;
+      padding-left: 2.5rem;
+      padding-right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element:nth-child(even)::before {
+      left: 1px;
+  }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element::before {
+      top: 1.25rem;
+  }
+}
+
+
+/* CONTACT FORM */
+.button-submit button {
+    background-color: #61adbd;
+    color: white;
+    border: none;
+}
+
+.card {
+    width: 50%;
+    margin: auto;
+    width: 900px;
+    border: none;
+}
+
+
+
+/* FOOTER */
+.page-footer {
+    background-color: #61adbd;
+    color: white;
+}
+
+.page-footer p {
+    color: white;
+    font-size: 0.9em;
+}
+
+.fa-linkedin-in {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
